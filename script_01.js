@@ -23,11 +23,15 @@
 
 // console.log(firstName, familyName);
 
-let test;
-test = "Hai";
+// let test;
+// test = "Hai";
 // test = 2;
 // test = true;
 
 //* JS ist eine untypisierte Sprache! | untyped *
-console.log("Datentyp: ", typeof test);
+// console.log("Datentyp: ", typeof test);
+
+const test = "Hai";         // Konstanten müssen(!) Werte zugewiesen werden
+test = "Hallo";
+
 console.log("Inhalt: ", test);
