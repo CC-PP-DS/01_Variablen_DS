@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 /***** Variablen 01 *******/
 
@@ -15,9 +15,10 @@
 /********* 02 Deklarationen + Wertzuweisung I *********/ 
 
 let firstName = "Dan";
+firstName = prompt("Bitte Vornamen eingeben:");
 // firstName = 55+88;
 
-let familyName = "Schin";
+let familyName = prompt("Bitte Nachnamen eingeben:");
 // familyName = 3;
 
 console.log(firstName, familyName);
