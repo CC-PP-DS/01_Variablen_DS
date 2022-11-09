@@ -31,7 +31,30 @@
 //* JS ist eine untypisierte Sprache! | untyped *
 // console.log("Datentyp: ", typeof test);
 
-const test = "Hai";         // Konstanten müssen(!) Werte zugewiesen werden
-test = "Hallo";
+// const test = "Hai";         // Konstanten müssen(!) Werte zugewiesen werden
+// test = "Hallo";
 
-console.log("Inhalt: ", test);
+// console.log("Inhalt: ", test);
+
+/***** Beispiel - Berechnung Alter *****/
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+// Wertzuweisung
+
+ageJohn = 12;
+ageMark = 56;
+
+let date = new Date();
+let year = date.getFullYear();
+console.log(date);
+
+// Berechnung
+
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+console.log("birthYearJohn: ", birthYearJohn);
+console.log("birthYearMark: ", birthYearMark);
